@@ -14,20 +14,35 @@ h1 {
 		font-weight:normal;
 	}
 
+  /* Team profile section */
 .teamprofile {
     background: white;
     padding-bottom: 30%;
-}
-.ben {
-  padding-top: 10px;
-  padding-left: 12%;
-  padding-right: 60%;
-  text-align: center;
-  font-size:15px;
-  line-height: 1.2;
+    font-size:15px;
+    line-height: 1.2;
+    text-align: center;
+    float:right;
 }
 
-  .benpng {
-    float:center;
-    padding-right:40px;
-  }
+            .ben {
+              float:left;
+              width:20%;
+              padding-left:5%;
+              display:inline;
+            }
+
+            .benpng {
+              float:left;
+              width:10%;
+            }
+              .josh {
+                width:20%;
+                float:left;
+                margin-left:30%;
+              }
+
+                .joshpng {
+                  display: block;
+                  margin-left:auto;
+                  margin-right:auto;
+                }
