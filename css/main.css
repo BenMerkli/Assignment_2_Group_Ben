@@ -163,3 +163,25 @@ html, body {
                       color: white;
 
                     }
+
+                /*table*/
+                table, th, td  {
+                  text-align:left;
+                  padding-left: 4%;
+                  padding-right: 4%;
+                }
+
+                th {
+                  width:150px;
+                }
+                td {
+                  line-height: 30px;
+                }
+
+                td {
+                  border-bottom: solid;
+                  border-width: 1.5px;
+                  border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
+                  border-image-slice: 9;
+
+                }
