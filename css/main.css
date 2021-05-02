@@ -1,0 +1,292 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+html, body {
+  font-family: "Lato", sans-serif;
+}
+#wrapper
+{
+position:relative;
+}
+
+/* Background images with titles for each section  */
+
+      .background1 {
+        background-image: url(overlay1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+        height: 500px;
+        opacity: 90%;
+      }
+        .bg1txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 200px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 85px 0;
+          position: relative;
+          top: 120px;
+          color: white;
+        }
+
+        .background2 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+        }
+
+        .bg2txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+
+        }
+
+        .background3 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+          white-space: normal;
+        }
+
+        .bg3txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+          white-space: normal;
+        }
+
+        .background4 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+          white-space: normal;
+        }
+
+        .bg4txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+          white-space: normal;
+
+        }
+
+
+/* Team Profile section*/
+
+    h1{
+      text-align:center;
+      font-size:25px;
+    }
+    p {
+      text-align: center;
+      padding-top: 50px;
+      font-size:20px;
+    }
+          .ben {
+            display: inline-block;
+            float: left;
+            padding-left: 2%;
+            text-align: left;
+            font-size:15px;
+            margin: 20px 30px 0 0;
+            width: 44%;
+            white-space:normal
+          }
+
+                      .benpng {
+                        float: right;
+                        height: 500px;
+                        width: 400px;
+                      }
+  /*vertical line*/
+  .vertical {
+    opacity: 60%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    border-width: 3px 3px 3px 3px;
+    border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
+    border-image-slice: 9;
+    border-style: solid;
+  }
+
+  .vertical2 {
+    opacity: 60%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    border-width: 2px 2px 2px 2px;
+    border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
+    border-image-slice: 9;
+    border-style: solid;
+  }
+          .josh {
+            display: inline-block;
+            float: right;
+            padding-right: 3%;
+            text-align: left;
+            font-size:15px;
+            margin: 20px 30px 0px 0px;
+            width: 44%;
+            white-space:normal
+
+          }
+
+                  .joshpng {
+                    float: right;
+                    height: 500px;
+                    width: 400px;
+                  }
+
+          .liam {
+            display: inline-block;
+            float: left;
+            text-align: left;
+            font-size:15px;
+            margin: 20px 30px 0 0;
+            width: 100%;
+            white-space:normal
+          }
+                  .liampng {
+                    float: right;
+                    height: 500px;
+                    width: 400px;
+                  }
+
+            .andy {
+              display: inline-block;
+              float: right;
+              padding-right: 3%;
+              text-align: left;
+              font-size:15px;
+              margin: 20px 30px 0px 0px;
+              width: 44%;
+              white-space:normal
+            }
+                      .andypng {
+                        float: right;
+                        height: 500px;
+                        width: 400px;
+                      }
+          .anton {
+            float: none;
+            text-align: left;
+            font-size:15px;
+            margin: 20px 30px 0px 0px;
+            width: 50%;
+            padding-left: 500px;
+            white-space:normal
+          }
+                    .antonpng {
+                      float: right;
+                      height: 600px;
+                      width: 400px;
+                      padding-left:20px;
+                    }
+
+
+
+                /*table for Ideal Jobs section*/
+                table, th, td  {
+                  text-align:left;
+                  padding-left: 4%;
+                  padding-right: 4%;
+                }
+
+                th {
+                  width:150px;
+                }
+                td {
+                  line-height: 30px;
+                }
+
+                td {
+                  border-bottom: solid;
+                  border-width: 1.5px;
+                  border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
+                  border-image-slice: 9;
+
+                }
+
+
+  /*IT Work Interview section */
+
+  .vertical3 {
+    opacity: 60%;
+    height: 600px;
+    position: absolute;
+    left: 55%;
+    padding-top: 2%;
+    border-width: 2px 2px 2px 2px;
+    border-image: linear-gradient(45deg, rgba(300,57,370,1) 0%, rgba(110,116,210) 100%);
+    border-image-slice: 9;
+    border-style: solid;
+  }
+
+  .white {
+    text-align: center;
+      position: relative;
+  }
+
+      .interviewtext {
+        display: inline-block;
+        text-align: left;
+        float:left;
+        padding-left:3%;
+        font-size: 17px;
+        margin: 20px 30px 0 0;
+        width: 50%;
+        white-space: normal
+      }
+
+        .appendix {
+          float:right;
+          width: 40%;
+          padding-right:3%;
+            white-space: normal
+        }
+
+  /*IT Technologies section */
