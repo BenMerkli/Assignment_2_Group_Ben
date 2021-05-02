@@ -5,7 +5,7 @@ html, body {
   font-family: "Lato", sans-serif;
 }
 
-/* Background image 1 w/ title */
+/* Background images with titles for each section  */
 
       .background1 {
         background-image: url(overlay1.jpg);
@@ -30,6 +30,57 @@ html, body {
           color: white;
         }
 
+        .background2 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+        }
+
+        .bg2txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+
+        }
+
+        .background3 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+        }
+
+        .bg3txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+
+        }
+
+
 /* Team Profile section*/
 
     h1{
@@ -49,6 +100,7 @@ html, body {
             font-size:15px;
             margin: 20px 30px 0 0;
             width: 44%;
+            white-space:normal
           }
 
                       .benpng {
@@ -86,6 +138,7 @@ html, body {
             font-size:15px;
             margin: 20px 30px 0px 0px;
             width: 44%;
+            white-space:normal
 
           }
 
@@ -102,6 +155,7 @@ html, body {
             font-size:15px;
             margin: 20px 30px 0 0;
             width: 100%;
+            white-space:normal
           }
                   .liampng {
                     float: right;
@@ -117,6 +171,7 @@ html, body {
               font-size:15px;
               margin: 20px 30px 0px 0px;
               width: 44%;
+              white-space:normal
             }
                       .andypng {
                         float: right;
@@ -130,6 +185,7 @@ html, body {
             margin: 20px 30px 0px 0px;
             width: 50%;
             padding-left: 500px;
+            white-space:normal
           }
                     .antonpng {
                       float: right;
@@ -139,30 +195,6 @@ html, body {
                     }
 
 
-                    .background2 {
-                      background-image: url(overlay2.jpg);
-                      background-repeat: no-repeat;
-                      background-attachment: fixed;
-                      background-position: center;
-                      background-size: auto;
-                      max-width: 100%;
-                      height: 200px;
-                      opacity: 90%;
-                    }
-
-                    .bg2txt {
-                      text-align: center;
-                      border: 1px solid white;
-                      width: 500px;
-                      height: 100px;
-                      box-sizing: border-box;
-                      margin: auto;
-                      padding: 30px 40px 40px 40px;
-                      position: relative;
-                      top: 50px;
-                      color: white;
-
-                    }
 
                 /*table*/
                 table, th, td  {
