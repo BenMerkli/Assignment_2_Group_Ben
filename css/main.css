@@ -96,6 +96,7 @@ position:relative;
           height: 200px;
           opacity: 90%;
           white-space: normal;
+          clear:both;
         }
 
         .bg4txt {
@@ -119,11 +120,13 @@ position:relative;
       text-align:center;
       font-size:25px;
     }
+
+
     p {
-      text-align: center;
-      padding-top: 50px;
-      font-size:20px;
+      display: block;
+      font-size:13px;
     }
+
           .ben {
             display: inline-block;
             float: left;
@@ -205,7 +208,7 @@ position:relative;
               font-size:15px;
               margin: 20px 30px 0px 0px;
               width: 44%;
-              white-space:normal
+              white-space:normal;
             }
                       .andypng {
                         float: right;
@@ -218,19 +221,19 @@ position:relative;
             font-size:15px;
             margin: 20px 30px 0px 0px;
             width: 50%;
+            padding-top:3%;
             padding-left: 500px;
-            padding-top: 4%;
-            padding-bottom: 5%;
-            clear:both;
+            white-space:normal;
+            clear: both;
+            padding-bottom: 3%;
           }
                     .antonpng {
                       float: right;
                       height: 600px;
                       width: 400px;
                       padding-left:20px;
+                      clear: both;
                     }
-
-
 
                 /*table for Ideal Jobs section*/
                 table, th, td  {
@@ -241,6 +244,11 @@ position:relative;
 
                 th {
                   width:150px;
+                  border-bottom: solid;
+                  border-width: 1.5px;
+                  border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
+                  border-image-slice: 9;
+                  padding-bottom: 15px;
                 }
                 td {
                   line-height: 30px;
@@ -251,7 +259,6 @@ position:relative;
                   border-width: 1.5px;
                   border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
                   border-image-slice: 9;
-
                 }
 
 
@@ -259,21 +266,26 @@ position:relative;
 
   .vertical3 {
     opacity: 60%;
-    height: 600px;
+    height: 100px;
     position: absolute;
-    left: 55%;
-    padding-top: 2%;
-    border-width: 2px 2px 2px 2px;
+    left: 50%;
+    padding-top: 30%;
+    border-width: 3px;
     border-image: linear-gradient(45deg, rgba(300,57,370,1) 0%, rgba(110,116,210) 100%);
     border-image-slice: 9;
     border-style: solid;
+    clear:both;
   }
 
   .white {
     text-align: center;
       position: relative;
+      clear:both;
   }
 
+  .interview {
+    padding-top: 12%
+  }
       .interviewtext {
         display: inline-block;
         text-align: left;
@@ -281,15 +293,32 @@ position:relative;
         padding-left:3%;
         font-size: 17px;
         margin: 20px 30px 0 0;
-        width: 50%;
-        white-space: normal
+        width: 40%;
       }
 
         .appendix {
           float:right;
           width: 40%;
           padding-right:3%;
-            white-space: normal
+            padding-bottom: 3%;
         }
 
   /*IT Technologies section */
+
+  .it_tech {
+    padding: 4% 4% 4% 4%;
+    font-size:13px;
+  }
+
+  h2 {
+    display: block;
+    font-size: 14px;
+  }
+  h3 {
+    display: block;
+    font-size: 13px;
+  }
+  pre {
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+  }
