@@ -315,13 +315,96 @@ position:relative;
 
   h2 {
     display: block;
-    font-size: 14px;
+    font-size: 15px;
   }
   h3 {
     display: block;
-    font-size: 13px;
+    font-size: 14px;
   }
   pre {
-    font-size: 13px;
+    font-size: 14px;
     font-family: "Lato", sans-serif;
+  }
+      /* Cyber Security Section */
+            .cyber1 {
+              float: right;
+              width: 60%;
+              clear: right;
+            }
+              .cyber2 {
+                float:left;
+                width: 50%;
+              }
+                .cyber3 {
+                  clear:both;
+                }
+              .cybjpg {
+                float: left;
+                padding-left: 3%;
+                height: 400px;
+                width: 700px;
+                padding-top: 3%;
+                padding-bottom: 3%;
+              }
+              .cyber {
+                float: right;
+                padding-right: 10%;
+                padding-bottom: 3%;
+              }
+
+          /* Autonomous Vehicles Section */
+
+            .AutonomousVehicles {
+              clear:both;
+            }
+
+            .auto1png {
+              float: left;
+              padding-left: 7%;
+              padding-bottom: 5%;
+              padding-right: 5%;
+              padding-top: 2%;
+            }
+
+            .autotxt1 {
+              float: right;
+              width: 30%;
+              padding-left: 15%;
+              padding-top: 2%;
+            }
+
+            .auto2jpg {
+              float: right;
+              padding-left: 5%;
+              padding-bottom: 4%;
+              padding-right: 7%;
+              padding-top: 3%;
+              width: 800px;
+              height: 500px;
+            }
+
+            .autotxt2 {
+              float: left;
+              width: 50%;
+              padding-left: 3%;
+              padding-top: 1%;
+            }
+
+
+  .whitebox {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    width: 700px;
+    opacity: 60%;
+    height: 100px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    color: black;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgba(300,57,370,1) 0%, rgba(110,116,210) 100%);
+    border-image-slice: 9;
+    border-style: solid;
+    clear:both;
   }
