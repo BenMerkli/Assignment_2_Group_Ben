@@ -325,6 +325,33 @@ position:relative;
     font-size: 14px;
     font-family: "Lato", sans-serif;
   }
+
+    /*Crypto section */
+      .crypto1png {
+        float: left;
+        width: 550px;
+        height: 450px;
+        padding: 2% 3px 10px 2%;
+      }
+        .cryptotxt1 {
+          width: 70%;
+          float:right;
+          padding-bottom: 6%;
+        }
+          .cryptotxt2 {
+            clear: both;
+          }
+            .cryptotxt3 {
+              float: left;
+              width: 65%;
+            }
+            .crypto2jpg {
+              height: 400px;
+              width: 600px;
+              padding: 2% 3% 2%;
+              float: right;
+            }
+
       /* Cyber Security Section */
             .cyber1 {
               float: right;
