@@ -109,7 +109,6 @@ position:relative;
           position: relative;
           top: 50px;
           color: white;
-          white-space: normal;
 
         }
 
@@ -147,7 +146,7 @@ position:relative;
     height: 500px;
     position: absolute;
     left: 50%;
-    border-width: 3px;
+    border-width: 2px 2px 2px 2px;
     border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
     border-image-slice: 9;
     border-style: solid;
@@ -158,13 +157,13 @@ position:relative;
     height: 500px;
     position: absolute;
     left: 50%;
-    border-width: 3px;
+    border-width: 2px 2px 2px 2px;
     border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
     border-image-slice: 9;
     border-style: solid;
+    padding-top: 15px;
+    clear:both;
   }
-
-  /* Team Profiles */
           .josh {
             display: inline-block;
             float: right;
@@ -220,7 +219,9 @@ position:relative;
             margin: 20px 30px 0px 0px;
             width: 50%;
             padding-left: 500px;
-            white-space:normal
+            padding-top: 4%;
+            padding-bottom: 5%;
+            clear:both;
           }
                     .antonpng {
                       float: right;
@@ -262,7 +263,7 @@ position:relative;
     position: absolute;
     left: 55%;
     padding-top: 2%;
-    border-width: 3px;
+    border-width: 2px 2px 2px 2px;
     border-image: linear-gradient(45deg, rgba(300,57,370,1) 0%, rgba(110,116,210) 100%);
     border-image-slice: 9;
     border-style: solid;
@@ -292,6 +293,3 @@ position:relative;
         }
 
   /*IT Technologies section */
-
-
-  
