@@ -490,3 +490,12 @@ position:relative;
     padding-left: 20%;
     padding-right: 20%;
   }
+
+  .footer {
+    padding-top: 15%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
