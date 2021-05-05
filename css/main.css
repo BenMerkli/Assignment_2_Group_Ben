@@ -137,6 +137,34 @@ position:relative;
           color: white;
         }
 
+        .background6 {
+          background-image: url(overlay2.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: auto;
+          max-width: 100%;
+          height: 200px;
+          opacity: 90%;
+          white-space: normal;
+          clear:both;
+          margin: auto;
+        }
+
+        .bg6txt {
+          text-align: center;
+          border: 1px solid white;
+          width: 500px;
+          height: 100px;
+          box-sizing: border-box;
+          margin: auto;
+          padding: 30px 40px 40px 40px;
+          position: relative;
+          top: 50px;
+          color: white;
+          white-space: normal;
+        }
+
 
 /* Team Profile section*/
 
@@ -262,13 +290,13 @@ position:relative;
                 /*table for Ideal Jobs section*/
                 table, th, td  {
                   text-align:left;
-                  padding-left: 4%;
-                  padding-right: 4%;
+                  padding-left: 2%;
+                  padding-right: 2%;
                   padding-top: 1%;
                 }
 
                 th {
-                  width:150px;
+                  width:140px;
                   border-bottom: solid;
                   border-width: 1.5px;
                   border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
@@ -285,6 +313,19 @@ position:relative;
                   border-image: linear-gradient(45deg, rgba(100,57,242,1) 0%, rgba(160,116,200) 100%);
                   border-image-slice: 9;
                 }
+
+                .comparisons {
+                  padding-top:3%;
+                }
+
+              /* Industry Data */
+
+              .industry {
+                padding-top: 3%;
+              }
+              .opinion {
+                padding: 3% 2% 2% 2%
+              }
 
 
   /*IT Work Interview section */
@@ -358,7 +399,7 @@ position:relative;
         padding: 2% 3px 10px 2%;
       }
         .cryptotxt1 {
-          width: 70%;
+          width: 60%;
           float:right;
           padding-bottom: 6%;
         }
@@ -367,19 +408,21 @@ position:relative;
           }
             .cryptotxt3 {
               float: left;
-              width: 65%;
+              width: 50%;
+              padding-bottom: 3%;
             }
             .crypto2jpg {
               height: 400px;
               width: 600px;
               padding: 2% 3% 2%;
               float: right;
+
             }
 
       /* Cyber Security Section */
             .cyber1 {
               float: right;
-              width: 60%;
+              width: 50%;
               clear: right;
             }
               .cyber2 {
@@ -436,9 +479,9 @@ position:relative;
 
             .autotxt2 {
               float: left;
-              width: 50%;
-              padding-left: 3%;
+              width: 40%;
               padding-top: 1%;
+              padding-bottom: 5%;
             }
 
 
